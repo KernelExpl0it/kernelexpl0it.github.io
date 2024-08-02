@@ -4,6 +4,8 @@ html {
     background-color: #344955;
     font-family: 'Noto Sans', sans-serif;
     color: white;
+    display: block;
+    scrollbar-width: none;
 }
 
 h1 {
@@ -22,6 +24,15 @@ h2 {
     padding-left: 3vw;
 }
 
+.footer-link {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: white;
+}
+
 .links {
     font-size: 30px;
     margin-top: -1.5vh;
@@ -35,6 +46,11 @@ h2 {
 
 a {
     text-decoration: none;
+    color: grey;
+}
+
+a:hover {
+    color: grey;
 }
 
 .footer {
@@ -72,7 +88,7 @@ ul li a {
     padding: 10px 20px;
     text-decoration: none;
     color: #fff;
-    background-color: #007bff;
+    background-color: #435B66;
     border-radius: 5px;
     transition: background-color 0.3s;
 }
