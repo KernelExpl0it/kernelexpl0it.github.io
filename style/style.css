@@ -96,3 +96,38 @@ ul li a {
 ul li a:hover {
     background-color: #0056b3;
 }
+
+.about-text {
+    text-align: center;
+}
+
+.subtext {
+    margin-top: -4vh;
+    text-align: center;
+    font-size: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+.trusted-source {
+    text-align: center;
+    font-size: 1.75em;
+}
+
+.trusted-source-description {
+    text-align: center;
+    font-size: 1em;
+    margin-top: -3vh;
+}
+
+.creator {
+    text-align: center;
+    font-size: 1.5em;
+}
