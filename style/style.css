@@ -8,6 +8,11 @@ html {
     scrollbar-width: none;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
 h1 {
     text-align: center;
     font-size: 45px;
@@ -37,7 +42,11 @@ h2 {
     font-size: 30px;
     margin-top: -1.5vh;
     padding-left: 5vw;
-    color: grey;
+    color: #c8cdd2;
+}
+
+.links a {
+    color: #c8cdd2;
 }
 
 .bottom {
@@ -49,7 +58,7 @@ a {
     color: grey;
 }
 
-a:hover {
+p a {
     color: grey;
 }
 
@@ -61,9 +70,17 @@ a:hover {
 .content {
     margin-left: auto;
     margin-right: auto;
+    margin-top: 3vh;
     width: 70vw;
     height: auto;
     background-color: #435B66;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3vh;
+}
+
+.disclaimer_content {
+    padding-bottom: 2vh;
 }
 
 ul {
@@ -77,6 +94,8 @@ ul {
 .nav {
     position: relative;
     text-align: center;
+    margin: auto;
+    display: flex;
 }
 
 ul li {
@@ -95,4 +114,123 @@ ul li a {
 
 ul li a:hover {
     background-color: #0056b3;
+}
+
+.about-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.subtext {
+    color: #c8cdd2;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    text-align: center;
+    font-size: 1.1em;
+    margin-top: -2.5vh;
+    margin-bottom: -vh;
+}
+
+.trusted-source {
+    text-align: center;
+    font-size: 1.75em;
+}
+
+.trusted-source-description {
+    text-align: center;
+    font-size: 1.25em;
+    margin-top: -3vh;
+    color: #c8cdd2;
+}
+
+.creator {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: -.8vh;
+}
+
+hr {
+    width: 80%;
+    margin-bottom: 6vh;
+    margin-top: 6vh;
+}
+
+.whiteLnk {
+    color: white;
+}
+
+.whiteLnk:hover {
+    color: grey;
+}
+
+.trusted_source_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.trusted-source-description {
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+}
+
+.update {
+    margin-top: -2vh;
+    font-size: 0.90em;
+    color: gainsboro;
+}
+
+.disclaimer {
+    text-align: center;
+    font-size: 1.25em;
+    margin-top: -3vh;
+    color: #c8cdd2;
+}
+
+h3 {
+    font-size: 2em;
+    text-align: center;
+}
+
+.about-text p {
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    text-align: center;
+    font-size: 1.25em;
+    margin-top: -1vh;
+    color: #c8cdd2;
+}
+
+@media (max-width: 800px) {
+    .content {
+        width: 90vw;
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    ul li {
+        margin: 5px 0;
+    }
+
+    ul li a {
+        width: 75vw;
+        height: 4vh;
+        font-size: 1.25em;
+    }
+
+    .topic {
+        font-size: 1.75em;
+    }
+
+    .links {
+        font-size: 1.5em;
+    }
+
+    .trusted-source-description {
+        margin-left: 2vw;
+        margin-right: 2vh;
+    }
 }
